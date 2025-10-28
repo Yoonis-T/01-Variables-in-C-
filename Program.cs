@@ -1,0 +1,25 @@
+﻿using System;
+
+internal class Program
+{
+    static void Main()
+    {
+        // En variabel som sparar ditt namn
+        string name = "Yoonis";
+
+        // En variabel som sparar ett nummer
+        int num1 = 1;
+
+        // En annan variabel med ett annat nummer
+        int num2 = 2;
+
+        // Skriver ut variablerna i konsolen, rad för rad
+        Console.WriteLine(name);
+        Console.WriteLine(num1);
+        Console.WriteLine(num2);
+
+        // Håller fönstret öppet tills du trycker Enter
+        Console.WriteLine("\nTryck Enter för att avsluta...");
+        Console.ReadLine();
+    }
+}
